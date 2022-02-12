@@ -1,0 +1,49 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #44474d;
+  height: 100vh;
+  padding: 20px;
+}
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  color: #000000;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-search-box {
+  height: 40px;
+  width: 280px;
+  background-color: #ffffff;
+  border: 2px solid #42ddf5;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.select-element {
+  height: 30px;
+  width: 120px;
+}
+.options {
+  height: 30px;
+  width: 120px;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #3252a8;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 10px;
+}
